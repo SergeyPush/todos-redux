@@ -1,25 +1,82 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "task1",
-      "deskription": "Some description for task 1",
-      "completed": true,
-      "group": "group 1"
-    },
-    {
       "id": 2,
       "title": "task2",
-      "deskription": "Some description for task 2",
+      "description": "Some description for task 2",
       "completed": false,
-      "group": "group 2"
+      "group": "group 2",
+      "state": "new"
     },
     {
-      "id": 3,
-      "title": "task3",
-      "deskription": "Some description for task 3",
+      "title": "lalalalalalalalalalla !!!!!!!!!!!!",
+      "description": "",
       "completed": false,
-      "group": "group 2"
+      "id": "pWruEk1R",
+      "state": "new"
+    },
+    {
+      "title": "me new task",
+      "description": "",
+      "completed": false,
+      "id": "k4onAhZh",
+      "state": "new"
+    },
+    {
+      "title": "task4",
+      "description": "",
+      "completed": false,
+      "id": "jVMjVBn6",
+      "state": "new"
+    },
+    {
+      "title": "Learn Next.js",
+      "description": "",
+      "completed": false,
+      "id": "qQhzNyj-",
+      "state": "completed"
+    },
+    {
+      "title": "Learn something",
+      "description": "",
+      "completed": true,
+      "state": "new",
+      "id": "3TOLGj4B"
+    },
+    {
+      "title": "Bla bla bla",
+      "description": "",
+      "completed": true,
+      "state": "new",
+      "id": "sf3yL4Ew"
+    },
+    {
+      "title": "New Task11",
+      "description": "",
+      "state": "new",
+      "completed": false,
+      "id": "XMnuB2h_"
+    },
+    {
+      "title": "Learn something",
+      "description": "",
+      "state": "new",
+      "completed": false,
+      "id": "vS-ARbY1"
+    },
+    {
+      "title": "Make my day",
+      "description": "",
+      "state": "new",
+      "completed": true,
+      "id": "sR8La14G"
+    },
+    {
+      "title": "Follow the sun",
+      "description": "",
+      "state": "new",
+      "completed": true,
+      "id": "R4SZGmAw"
     }
   ]
 }
