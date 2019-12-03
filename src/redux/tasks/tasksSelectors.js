@@ -5,3 +5,5 @@ export const getNewTasks = state =>
 
 export const getCompletedTasks = state =>
   state.tasks.filter(task => task.completed === true);
+
+export const getFilteredTasks = state => {};
