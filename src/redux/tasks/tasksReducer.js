@@ -10,7 +10,6 @@ const tasksReducer = (state = [], action) => {
       return state.filter(task => task.id !== action.payload);
     case tasksTypes.COMPLETE_TASK:
       const index = state.findIndex(task => task.id === action.payload.id);
-
       return [
         ...state.slice(0, index),
         action.payload,

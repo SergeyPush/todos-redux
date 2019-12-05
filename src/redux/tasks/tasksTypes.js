@@ -3,3 +3,4 @@ export const ADD_TASK = "ADD_TASKS";
 export const DELETE_TASK = "DELETE_TASKS";
 export const COMPLETE_TASK = "COMPLETE_TASK";
 export const CHANGE_FILTER = "CHANGE_FILTER";
+export const SELECT_TASK_TYPE = "SELECT_TASK_TYPE";

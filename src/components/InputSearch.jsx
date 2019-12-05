@@ -2,6 +2,15 @@ import React from "react";
 import { connect } from "react-redux";
 import * as filterAction from "../redux/tasks/filterAction";
 import * as filterSelector from "../redux/tasks/filterSelector";
+import styled from "styled-components";
+
+const StyledInputSearch = styled.div`
+  padding: 0 250px;
+  transition: all 0.5s linear;
+  &:hover {
+    padding: 0 200px;
+  }
+`;
 
 const InputSearch = ({ value, onChangeFilter }) => {
   const handleChange = e => {
@@ -9,15 +18,17 @@ const InputSearch = ({ value, onChangeFilter }) => {
   };
 
   return (
-    <div className="input-field">
-      <i className="material-icons prefix">search</i>
-      <input
-        type="text"
-        placeholder="search"
-        onChange={handleChange}
-        value={value}
-      />
-    </div>
+    <StyledInputSearch>
+      <div className="input-field">
+        <i className="material-icons prefix">search</i>
+        <input
+          type="text"
+          placeholder="Search task"
+          onChange={handleChange}
+          value={value}
+        />
+      </div>
+    </StyledInputSearch>
   );
 };
 
